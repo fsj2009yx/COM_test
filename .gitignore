@@ -173,4 +173,4 @@ cython_debug/
 test.py
 
 #.idea
-.idea
+.idea/
