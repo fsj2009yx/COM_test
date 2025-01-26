@@ -261,7 +261,7 @@ class FSMSender(FSM_1.FsmSender):
                 input(
                     f"请输入丢失分组的序号 (为0或超过{self.__chunk_num}时将不进行丢包):"
                 )
-            )
+            ) 
 
             loss_chunk_num = self.loss(loss_set)
 
